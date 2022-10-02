@@ -14,7 +14,8 @@ services:
       - db-data:/var/lib/mysql
 
   nginx:
-    image: nginx:1.19-alpine
+    build:
+      target: dev
     environment:
       VIRTUAL_HOST: testing.local
     restart: "no"
