@@ -1,7 +1,7 @@
 # ----------------------
 # The FPM base container
 # ----------------------
-FROM php:7.4-fpm as dev
+FROM php:8.0-fpm as dev
 
 RUN apt-get update 
 RUN apt-get install -qy libmcrypt-dev zlib1g-dev libzip-dev default-mysql-client libpng-dev
