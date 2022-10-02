@@ -1,4 +1,4 @@
-FROM nginx:1.19-alpine
+FROM nginx:1.22-alpine as dev
 
 WORKDIR /app/public
 
