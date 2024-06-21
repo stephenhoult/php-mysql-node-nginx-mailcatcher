@@ -1,6 +1,6 @@
-# docker-dev-env
+# php-mysql-node-nginx-mailcatcher
 
-A php, mysql, node and mailcatcher enabled local dev environment
+A php, mysql, node, nginx and mailcatcher enabled local dev environment using docker.
 
 ## Usage
 
